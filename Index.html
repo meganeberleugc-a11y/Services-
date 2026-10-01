@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services Widget</title>
+    <style>
+        html,body{margin:0;background:#050505;color:#f2f2f5;font:16px/1.5 system-ui,-apple-system,Segoe UI,sans-serif}
+        .row{display:flex;flex-direction:row;flex-wrap:nowrap;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;padding:8px 16px 16px;-webkit-overflow-scrolling:touch}
+        .tile{flex:0 0 260px;width:260px;height:380px;scroll-snap-align:start;border:1px solid transparent;border-radius:24px;padding:22px;display:flex;flex-direction:column;justify-content:flex-end;
+        background:linear-gradient(#0e0e11,#0e0e11) padding-box,linear-gradient(160deg,#aab2c8,#2b2e3a 38%,#646c82 68%,#d6dcec) border-box}
+        .tile h2{font:700 24px/1.1 Impact,Haettenschweiler,"Arial Narrow Bold",sans-serif;margin:0 0 8px}
+        .tile p{margin:0;color:#9a9cab;font-size:15px}
+        .ico{width:34px;height:34px;margin-bottom:auto;stroke:#f2f2f5;fill:none;stroke-width:1.4}
+    </style>
+</head>
+<body>
+
+<div class="row">
+<section class="tile"><svg class="ico" viewBox="0 0 34 34"><circle cx="17" cy="17" r="11"/><path d="M17 6v22M6 17h22"/></svg><h2>Brand identity</h2><p>Logo, palette, type, and a one-page guide.</p></section>
+<section class="tile"><svg class="ico" viewBox="0 0 34 34"><rect x="6" y="6" width="22" height="22" rx="5"/><circle cx="17" cy="17" r="5"/></svg><h2>Social media graphics</h2><p>Post and story sets built to your brand.</p></section>
+<section class="tile"><svg class="ico" viewBox="0 0 34 34"><rect x="5" y="8" width="24" height="18" rx="3"/><path d="M5 14h24"/></svg><h2>Canva template kits</h2><p>Editable templates you can reuse.</p></section>
+<section class="tile"><svg class="ico" viewBox="0 0 34 34"><path d="M9 6h16v22H9z"/><path d="M14 13l7 4-7 4z"/></svg><h2>UGC content</h2><p>Short videos and photos that feel real.</p></section>
+</div>
+
+</body>
+</html>
